@@ -6,6 +6,6 @@ options:
   - identifier: hookmark
     type: boolean
     label: Hookmark
-    description: In the end, copy the URL to link the topic with the URL using Hookmark possible
+    description: In the end, copy the URL to link the topic with the URL using Hookmark if possible
     default value: false
 applescript file: paste-to-ithoughtsx.applescript

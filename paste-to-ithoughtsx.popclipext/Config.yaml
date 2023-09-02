@@ -1,0 +1,11 @@
+identifier: "paste-to-ithoughtsx"
+name: "Paste to iThoughtsX"
+icon: icon.png
+requirements: [text]
+options:  
+  - identifier: hookmark
+    type: boolean
+    label: Hookmark
+    description: In the end, copy the URL to link the topic with the URL using Hookmark possible
+    default value: false
+applescript file: paste-to-ithoughtsx.applescript

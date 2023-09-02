@@ -16,7 +16,7 @@ if appRunning then
     tell application "System Events" to keystroke "v" using command down
     tell application "System Events" to tell process frontApp to set frontmost to true
 
-    if {popclip option hookmark} and "{popclip browser url}" = "" then
+    if "{popclip option hookmark}" is equal to "1" and "{popclip browser url}" is not equal to "" then
         set the clipboard to "{popclip browser url}"
     end if
 end if
